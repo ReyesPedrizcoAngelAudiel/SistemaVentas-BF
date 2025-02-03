@@ -1,0 +1,42 @@
+{
+  "name": "ventas2",
+  "version": "1.0.0",
+  "description": "Programa Bondadosa Farmacia",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "start-build": "electron dist/main.js"
+  },
+  "author": "Angel Audiel Reyes Pedrizco y Elizabeth Loredo Castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.4",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.example.ventas2",
+    "productName": "Ventas2",
+    "artifactName": "SistemaVentas-Bondadosa.${ext}",
+    "directories": {
+      "output": "C:/Users/Angel/Desktop"
+    },
+    "files": [
+      "main.js",
+      "app",
+      "config",
+      "autoload.php",
+      ".htaccess"
+    ],
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "punto-de-venta.ico"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
