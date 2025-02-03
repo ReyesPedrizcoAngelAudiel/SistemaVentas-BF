@@ -16,7 +16,7 @@
 > #### Base de datos:
 > ![](/Doc-README/BD-SISTEMA-VENTAS.jpg)
 > #### Manual de usuario:
-> [📄 Ver Manual de Usuario](https://github.com/ReyesPedrizcoAngelAudiel/SistemaVentas-BF/Doc-README/Manual-Usuario_SistemaVentas-BondadosaFarmacia.pdf)
+> [📄 Ver Manual de Usuario](https://github.com/ReyesPedrizcoAngelAudiel/SistemaVentas-BF/blob/master/Doc-README/Manual-Usuario_SistemaVentas-BondadosaFarmacia.pdf)
 
 #### 🎨 Mejoras Futuras
 >- **Asignación de Roles:** 
